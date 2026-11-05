@@ -21,3 +21,6 @@ for reservation in response['Reservations']:
         ec2.stop_instances(InstanceIds=[instance_id])
            
         print(f"Stopped instance: {instance_id}")
+
+
+        print("Running from DEV branch")
